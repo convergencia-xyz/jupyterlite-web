@@ -5,7 +5,7 @@ REQUIREMENTS := requirements.txt
 CONTENTS_DIR := content
 OUTPUT_DIR := dist
 
-all: build deploy
+all: build
 
 # Target to set up the environment and install dependencies
 setup:
